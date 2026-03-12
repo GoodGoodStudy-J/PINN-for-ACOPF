@@ -1,10 +1,3 @@
-'''
-Descripttion: Draw the Distribution about the Training Set and Testing Set
-Author: JIANG Bozhen
-version: 
-LastEditors: JIANG Bozhen
-LastEditTime: 2026-01-02 16:25:15
-'''
 import numpy as np
 from matplotlib import pyplot as plt
 
@@ -65,3 +58,4 @@ plt.show()
 # plt.tight_layout()
 # plt.show()
 # fig.savefig("./distribution.svg",dpi=300)
+
