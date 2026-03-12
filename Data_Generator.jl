@@ -1,9 +1,3 @@
-# Descripttion: ACOPF Dataset Generation
-# Author: JIANG Bozhen
-# version: 
-# LastEditors: JIANG Bozhen
-# LastEditTime: 2026-01-02 16:25:15
-
 import PowerModels
 import Ipopt
 import Statistics
@@ -285,4 +279,5 @@ open("./Dataset/X_other_information_118_test.txt", "w") do io
 end
 
 println("case118 finished !")
+
 
