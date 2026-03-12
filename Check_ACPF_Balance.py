@@ -1,10 +1,3 @@
-'''
-Descripttion: Check Power FLow and Constrain Violation in ACOPF Dataset
-Author: JIANG Bozhen
-version: 
-LastEditors: JIANG Bozhen
-LastEditTime: 2026-01-02 16:25:15
-'''
 import numpy as np
 from tqdm import tqdm
 import logging
@@ -270,4 +263,5 @@ for i in range(X_con_test.shape[0]):
     # break
 
 _temp_shape = X_con_test.shape[0]
+
 print("BASE error: ",base_p_error/_temp_shape," ",base_q_error/_temp_shape," ",base_cost_error/_temp_shape," ",base_active_error/_temp_shape," ",base_reactive_error/_temp_shape," ",base_voltage_error/_temp_shape," ",base_line_error/_temp_shape)
