@@ -1,17 +1,3 @@
-'''
-Descripttion: AC-OPF Solver Network and AC-PF Evaluator Network Training Process
-
-Paper: 
-[1] Bozhen Jiang, Jing Qu, Qin Wang. Unsupervised Online Learning for AC Optimal Power Flow: A Gradient-Guided Physics-Informed Neural Network Approach. TechRxiv. October 24, 2025. 
-[2] B. Jiang, C. Qin and Q. Wang, "An Unsupervised Physics-Informed Neural Network Method for AC Power Flow Calculations," in IEEE Transactions on Power Systems, vol. 40, no. 5, pp. 4407-4410, Sept. 2025, doi: 10.1109/TPWRS.2025.3585727.
-
-Author: JIANG Bozhen
-
-version: 
-Date: 2025-01-18 13:28:21
-LastEditors: JIANG Bozhen
-LastEditTime: 2026-01-02 16:25:15
-'''
 import torch
 import torch.nn as nn
 import torch.optim as optim
