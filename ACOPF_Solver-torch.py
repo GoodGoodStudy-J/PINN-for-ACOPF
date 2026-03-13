@@ -12,7 +12,7 @@ from sklearn.preprocessing import MinMaxScaler, StandardScaler
 
 from case118 import *
 
-torch.cuda.set_device(1)  # 强制使用GPU 0
+torch.cuda.set_device(1)  # 强制使用GPU 1
 device = torch.device('cuda:1')
 print(f"使用设备: {device}")
 
