@@ -189,7 +189,7 @@ def power_flow_equations_evaluation(case118, state, action, q_u_delta):
     for branch in branch_data:
         from_bus = int(branch[0]) - 1
         to_bus = int(branch[1]) - 1
-        line_limit = 10 * branch[5] / 100.0  # Line maximum flow limit
+        line_limit = branch[5] / 100.0  # Line maximum flow limit
 
         # Calculate voltages at buses
         V_from = voltage_tensor[from_bus]
@@ -265,3 +265,4 @@ for i in range(X_con_test.shape[0]):
 _temp_shape = X_con_test.shape[0]
 
 print("BASE error: ",base_p_error/_temp_shape," ",base_q_error/_temp_shape," ",base_cost_error/_temp_shape," ",base_active_error/_temp_shape," ",base_reactive_error/_temp_shape," ",base_voltage_error/_temp_shape," ",base_line_error/_temp_shape)
+
