@@ -956,7 +956,7 @@ def AC_optimal_power_flow_equations_evaluation(case118, state, action, q, u, del
     for branch in branch_data:
         from_bus = int(branch[0]) - 1
         to_bus = int(branch[1]) - 1
-        line_limit = 10 * branch[5] / 100.0  # Line maximum flow limit
+        line_limit = branch[5] / 100.0  # Line maximum flow limit
 
         # Calculate voltages at buses
         V_from = voltage_tensor[from_bus]
